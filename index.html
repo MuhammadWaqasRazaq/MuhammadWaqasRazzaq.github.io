@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Font+Name"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/435a0e04e5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/waqasbold.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class=" fas  fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class=" fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="imggg">
+          <div class="header-text">
+            <p>Web developer</p>
+            <h1>Hi, I am M. <span>waqas</span><br />from pakistan</h1>
+          </div>
+          <div class="img">
+            <img src="images/w2.png" id="w2">
+          </div>
+        </div>
+      
+      </div>
+    </div>
+
+    <!-----------------about---------->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/aboutimg.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              <b> Hello there! 👋 I'm M.waqas, a passionate programmer with a love for crafting solutions through code. With a primary focus on C++, I thrive on the challenge of turning ideas into efficient and robust software solutions. Whether it's tackling complex algorithms or optimizing performance, I'm always eager to dive deep into the realm of C++.
+              <br>
+              Beyond C++, I also have a flair for web development.I enjoy building sleek and interactive web experiences. From elegant designs to seamless user interactions, I find joy in bringing digital visions to life on the web
+              </b>
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web Development</span><br />Make complete Responsive Websites</li>
+                <li><span>App Development</span><br />Make IOS and Android Apps</li>
+                <li>
+                  <span>Game Development</span><br />
+                  Make C++ games and applications
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2021 - Current</span><br />UI/Ux Design training at Et
+                  insitiute
+                </li>
+                <li><span>2019 - 2021</span><br />team lead at startup LLc.</li>
+                <li>
+                  <span>2016 - 2017</span><br />internship at pakistan Excetivve
+                </li>
+                <li>
+                  <span>2016 - 2017</span><br />internship at pakistan Excetivve
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2016 </span><br />Matric : Suffah Gramamer School</li>
+                <li><span>2019</span><br /> College : Defence Degree College</li>
+                <li>
+                  <span>2019</span><br />Bs Cs : University of Managemnet and Technology
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------services------------------->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Deveolper</h2>
+            <p>
+             I can make complete responsive websites according any requirements you want with new technologies and features.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Developer</h2>
+            <p>
+             I can make IOS and android apps with complete user friendly and with new features and technologies.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-gamepad"></i>
+            <h2>Game Developer</h2>
+            <p>
+             I am passionate about coding and can make games in c++ with new features and tecnologies
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>Social Medis App</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img id="amz" src="images/amazon.jpg" />
+            <div class="layer">
+              <h3>Amazon Clone</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/rcp.jpg" />
+            <div class="layer">
+              <h3>Rock paper Game</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>mwll9425@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>03086469445</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100047407360248"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter-square"></i></a>
+              <a href="https://www.instagram.com/im_waqassss/"><i class="fab fa-instagram"></i></a>
+              <a href="www.linkedin.com/in/
+              muhammad-waqas-026a552a8
+              "><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="your name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form >
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Waqas. Made with <i class="fa-solid fa-heart"></i> by Muhammad waqas</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzGxg-9p7lehbnviZtL4esIuZ7gHCjzKeJs_0MNaGxyw8jjvSXw49tmMYLios29wIfg/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg");
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+              msg.innerHTML=""
+            }, 5000);
+            form.reset();
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
